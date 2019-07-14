@@ -1,5 +1,6 @@
 # Ndlib_Marker_Viz
-## Adding a Marker To Ndlib Graph Viz
+
+Adding a Marker To Ndlib Graph Viz
 
 Adding marker to Ndlib ComparisonViz and DiffusionViz to distinguish multiple lines and improve visual understanding.
 
