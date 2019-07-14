@@ -5,17 +5,20 @@ NDlib is a Python software package that allows to describe, simulate, and study 
 
 Network Diffusion Library
 
-# Foobar
+## Adding a Marker To Ndlib Graph Viz
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
+Matplotlib Marker: a basic matplotlib Marker plot, this shows a few optional features, like defining legend labels, legend size and maker size.
+```python
+Code to plot a simple demo with a “*” marker.
+ 
+import matplotlib.pyplot as plt
+x = [1,2,3,4,5]
+fig, ax = plt.subplots()
+ax.plot(x, '*' , markersize=12, label='(*)')
+ax.axis('equal')
+leg = ax.legend(fontsize=12);
 ```
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ## Usage
 
